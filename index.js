@@ -3,7 +3,7 @@ let count = 0;
 const displayEl = document.querySelector('#count-display');
 const incBtn = document.getElementById('increment-btn');
 const decBtn = document.getElementById('decrement-btn');
-
+//Update display
 const updateDisplay = () => {
   displayEl.textContent = `Updated Count: ${count}`;
 };
